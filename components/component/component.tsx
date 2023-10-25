@@ -19,10 +19,12 @@ export function Component() {
           <p>DNI: 44004300X</p>
           <p>Mobile: +34 618900003</p>
           <p>Email: cescofors75@gmail.com</p>
-          <Link href="https://www.linkedin.com/in/cescofors/">
+          <Link href="https://www.linkedin.com/in/cescofors/" target="_blank">
+       
           <p>LinkedIn: https://www.linkedin.com/in/cescofors/</p>
+        
           </Link>
-          <Link href="https://github.com/cescofors75">
+          <Link href="https://github.com/cescofors75" target="_blank">
           <p>Github: https://github.com/cescofors75</p>
           </Link>
           <Link href="https://cesco.dev">
@@ -47,7 +49,7 @@ export function Component() {
           <h3 className="font-medium">Baco AI</h3>
           <p>
             Description: Gives life to your own Virtual Sommelier. A service where establishments can create and manage
-            their personalized sommelier with ease and speed. <Link href="https://baco.cat/" >https://baco.cat/</Link>
+            their personalized sommelier with ease and speed. <Link href="https://baco.cat/" target="_blank">https://baco.cat/</Link>
           </p>
         </div>
       <div className="mt-6">
