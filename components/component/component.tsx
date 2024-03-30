@@ -150,8 +150,10 @@ export function Component() {
           </h3>
         </div>
         <div>
-          <h3 className="font-medium">1994-1996: Rank Xerox Barcelona</h3>
-          <p>Programador durante 14 meses.</p>
+          <h3 className="font-medium">
+            {`1994-1996: Rank Xerox Barcelona - Programador durante 14 meses`}
+            </h3>
+          
         </div>
       </div>
       <div className="mt-6">
