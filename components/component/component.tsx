@@ -102,10 +102,7 @@ export function Component() {
           <h3 className="font-medium">2012-2014: Euro4x4parts</h3>
           <p>Commercial technician.</p>
         </div>
-        <div>
-          <h3 className="font-medium">2010-2012: Euro4x4parts</h3>
-          <p>Head of IT Department.</p>
-        </div>
+      
         <div>
           <h3 className="font-medium">2010-2012: HOTEL SAN CARLOS - ROSES</h3>
           <p>
