@@ -47,7 +47,14 @@ export function Component() {
           <h3 className="font-medium">Baco AI</h3>
           <p>
             Descripció: Dona vida al teu propi Sommelier Virtual. Un servei on els establiments poden crear i gestionar el seu sommelier personalitzat amb facilitat i rapidesa. <Link href="https://baco.cat/" target="_blank">https://baco.cat/</Link>
+          
           </p>
+         <p>Accelerador: ISID (Escola de negocis) Barcelona (Next Generator)</p>
+         <p>Microsoft Startup: Founders Hub (Patrocinador)</p>
+         <p>Desenvolupament de Relacions  Embeddings (vectors) RAG (Retrieve and Generate) per a la generació de respostes.</p>
+
+
+
         </div>
       <div className="mt-6">
         <h2 className="text-2xl font-semibold mb-2">Llengües</h2>
