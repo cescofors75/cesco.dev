@@ -100,8 +100,15 @@ export function Component() {
           <p>Tècnic comercial.</p>
         </div>
         <div>
-          <h3 className="font-medium">2010-2012: HOTEL SAN CARLOS - ROSES - TURIEXPERT LLORET</h3>
-          <p>Gestió i manteniment del programari i maquinari informàtic de l`hotel a Roses i oficines a Lloret de Mar.</p>
+          <h3 className="font-medium">2010-2012: Euro4x4parts</h3>
+          <p>Head of IT Department.</p>
+        </div>
+        <div>
+          <h3 className="font-medium">2010-2012: HOTEL SAN CARLOS - ROSES</h3>
+          <p>
+            Management and maintenance of computer software and hardware at the hotel in Roses and offices in Lloret de
+            Mar.
+          </p>
         </div>
         <div>
           <h3 className="font-medium">2010-2012: Freelance</h3>
@@ -134,7 +141,7 @@ export function Component() {
         </div>
         <div>
           <h3 className="font-medium">1994-1996: Rank Xerox Barcelona</h3>
-          <p>Desenvolupament de programari After Sales-Bcn.</p>
+          <p>Programador durante 14 meses.</p>
         </div>
       </div>
       <div className="mt-6">
