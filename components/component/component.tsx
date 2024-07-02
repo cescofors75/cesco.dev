@@ -7,166 +7,165 @@ import Link from 'next/link'
 export function Component() {
   return (
     <div className="bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 p-6 rounded-lg shadow-lg">
-      <h1 className="text-4xl font-bold mb-4">Portfolio</h1>
+      <h1 className="text-4xl font-bold mb-4">Portfoli</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div>
-          <h2 className="text-2xl font-semibold mb-2">Personal Information</h2>
-          <p>Name: Francesc</p>
-          <p>Surnames: Fors Ferrer</p>
-          <p>Date of Birth: November 21, 1975</p>
-          <p>Place of Birth: Barcelona</p>
-          <p>Current Address: C/ Rector Coch 1 </p> <p>Lloret de Mar - Girona</p>
+          <h2 className="text-2xl font-semibold mb-2">Informació Personal</h2>
+          <p>Nom: Francesc</p>
+          <p>Cognoms: Fors Ferrer</p>
+          <p>Data de Naixement: 21 de novembre de 1975</p>
+          <p>Lloc de Naixement: Barcelona</p>
+          <p>Adreça Actual: C/ Rector Coch 1 </p> <p>Lloret de Mar - Girona</p>
           <p>DNI: 44004300X</p>
-          <p>Mobile: +34 618900003</p>
-          <p>Email: cescofors75@gmail.com</p>
+          <p>Mòbil: +34 618900003</p>
+          <p>Correu Electrònic: cescofors75@gmail.com</p>
           <Link href="https://www.linkedin.com/in/cescofors/" target="_blank">
-       
-          <p>LinkedIn: https://www.linkedin.com/in/cescofors/</p>
-        
+            <p>LinkedIn: https://www.linkedin.com/in/cescofors/</p>
           </Link>
           <Link href="https://github.com/cescofors75" target="_blank">
-          <p>Github: https://github.com/cescofors75</p>
+            <p>Github: https://github.com/cescofors75</p>
           </Link>
           <Link href="https://cesco.dev">
-          <p>Portfolio: www.cesco.dev</p>
+            <p>Portfoli: www.cesco.dev</p>
           </Link>
         </div>
         <div>
-          <h2 className="text-2xl font-semibold mb-2">Education</h2>
+          <h2 className="text-2xl font-semibold mb-2">Educació</h2>
           <div>
-            <h3 className="font-medium">1997-2002: Universidad de Girona UDG</h3>
-            <p>Degree: Ingeniería Técnica en Informática de Gestión</p>
+            <h3 className="font-medium">1997-2002: Universitat de Girona UDG</h3>
+            <p>Grau: Enginyeria Tècnica en Informàtica de Gestió</p>
           </div>
           <div>
             <h3 className="font-medium">1991-1996: Escola Núria Perpinyà Barcelona</h3>
-            <p>Degree: Formación Profesional I-II, Técnico Especialista en Informática de Gestión</p>
+            <p>Grau: Formació Professional I-II, Tècnic Especialista en Informàtica de Gestió</p>
           </div>
         </div>
       </div>
       <br/>
       <div>
-          <h2 className="text-2xl font-semibold mb-2">Current Project</h2>
+          <h2 className="text-2xl font-semibold mb-2">Projecte Actual</h2>
           <h3 className="font-medium">Baco AI</h3>
           <p>
-            Description: Gives life to your own Virtual Sommelier. A service where establishments can create and manage
-            their personalized sommelier with ease and speed. <Link href="https://baco.cat/" target="_blank">https://baco.cat/</Link>
+            Descripció: Dona vida al teu propi Sommelier Virtual. Un servei on els establiments poden crear i gestionar el seu sommelier personalitzat amb facilitat i rapidesa. <Link href="https://baco.cat/" target="_blank">https://baco.cat/</Link>
           </p>
         </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Languages</h2>
-        <p>Catalán: Native. Level C.</p>
-        <p>Spanish: Native.</p>
-        <p>French: Written and spoken correctly. Intermediate level.</p>
+        <h2 className="text-2xl font-semibold mb-2">Llengües</h2>
+        <p>Català: Natiu. Nivell C.</p>
+        <p>Espanyol: Natiu.</p>
+        <p>Francès: Escrit i parlat correctament. Nivell intermedi.</p>
       </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Programming Languages</h2>
+        <h2 className="text-2xl font-semibold mb-2">Llenguatges de Programació</h2>
         <p>
-          ASM, Cobol, Visual Basic,   Visual C, HTML, CSS, C++, ASP, JSP, PHP, SQL, .NET,
-          XSL, XML, DRUPAL, Javascript, Ajax, React, Next.js
+          ASM, Cobol, Visual Basic, Visual C, HTML, CSS, C++, ASP, JSP, PHP, SQL, .NET, XSL, XML, DRUPAL, Javascript, Ajax, React, Next.js
         </p>
       </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Database Management Systems</h2>
+        <h2 className="text-2xl font-semibold mb-2">Sistemes de Gestió de Bases de Dades</h2>
         <p>Oracle, Mysql, SQLServer, PostgreSQL, Supabase</p>
       </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Programming Tools</h2>
-        <p>
-          OpenAI, Stability.ai, Vercel
-        </p>
+        <h2 className="text-2xl font-semibold mb-2">Eines de Programació</h2>
+        <p>VS-CODE, Node.js, Bun</p>
       </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Operating Systems</h2>
+        <h2 className="text-2xl font-semibold mb-2">API S & Serveis</h2>
+        <p>OpenAI, Stability.ai, Vercel, Mistral, Cohere</p>
+      </div>
+      <div className="mt-6">
+        <h2 className="text-2xl font-semibold mb-2">Sistemes Operatius</h2>
         <p>Windows, Macintosh, Linux, IOT</p>
       </div>
-    
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Others</h2>
-        <p>Google analytics, Business Intelligence and Big Data</p>
+        <h2 className="text-2xl font-semibold mb-2">Altres</h2>
+        <p>Google Analytics, Business Intelligence i Big Data, PowerBI, Azure</p>
       </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Experience</h2>
+        <h2 className="text-2xl font-semibold mb-2">Experiència</h2>
         <div>
-          <h3 className="font-medium">2021-2022: Euro4x4parts</h3>
-          <p>Developing computer applications for the R&D department.</p>
+          <h3 className="font-medium">2021-2022: Euro4x4parts (França)</h3>
+          <p>Desenvolupament d`aplicacions informàtiques per al departament de R+D. Solució OBD2. Sistema per a cotxes antics connectats a internet.</p>
         </div>
         <div>
-          <h3 className="font-medium">2019-2021: Euro4x4parts</h3>
-          <p>Head of Accessories Department.</p>
+          <h3 className="font-medium">2019-2021: Euro4x4parts (França)</h3>
+          <p>Cap del Departament d`Accessoris.</p>
         </div>
         <div>
           <h3 className="font-medium">2015-2019: Euro4x4parts</h3>
-          <p>Director of the branch in Canarias.</p>
+          <p>Director de la sucursal a Canàries.</p>
         </div>
         <div>
           <h3 className="font-medium">2012-2014: Euro4x4parts</h3>
-          <p>Commercial technician.</p>
+          <p>Tècnic comercial.</p>
         </div>
         <div>
-          <h3 className="font-medium">2010-2012: Euro4x4parts</h3>
-          <p>Head of IT Department.</p>
-        </div>
-        <div>
-          <h3 className="font-medium">2010-2012: HOTEL SAN CARLOS - ROSES</h3>
-          <p>
-            Management and maintenance of computer software and hardware at the hotel in Roses and offices in Lloret de
-            Mar.
-          </p>
+          <h3 className="font-medium">2010-2012: HOTEL SAN CARLOS - ROSES - TURIEXPERT LLORET</h3>
+          <p>Gestió i manteniment del programari i maquinari informàtic de l`hotel a Roses i oficines a Lloret de Mar.</p>
         </div>
         <div>
           <h3 className="font-medium">2010-2012: Freelance</h3>
-          <p>Website design and development: https://www.raidcostabrava.com/ - DRUPAL</p>
-          <p>Website design and development: https://www.costabravareggaefest.com/ - DRUPAL</p>
-          <p>Website design and development: http://www.radialtours.com/ - DRUPAL</p>
-          <p>Website design and development: https://www.casarusa.cat/ - DRUPAL</p>
-          <p>Website design and development: https://www.restaurantemasbusca.com/ - DRUPAL</p>
+          <p>Disseny i desenvolupament web: https://www.raidcostabrava.com/ - DRUPAL</p>
+          <p>Disseny i desenvolupament web: https://www.costabravareggaefest.com/ - DRUPAL</p>
+          <p>Disseny i desenvolupament web: http://www.radialtours.com/ - DRUPAL</p>
+          <p>Disseny i desenvolupament web: https://www.casarusa.cat/ - DRUPAL</p>
+          <p>Disseny i desenvolupament web: https://www.restaurantemasbusca.com/ - DRUPAL</p>
         </div>
         <div>
           <h3 className="font-medium">2007-2009: FOOTBALL AND MUSIC</h3>
-          <p>
-            Design of banners and stamps publicitarios. Webs of reference: www.sportsemotions.com,
-            www.football-and-music.com, www.barcelona-football-tickets.com
-          </p>
+          <p>Disseny de banners i segells publicitaris. Webs de referència: www.sportsemotions.com, www.football-and-music.com, www.barcelona-football-tickets.com</p>
         </div>
         <div>
-          <h3 className="font-medium">2005: MAPICASSA</h3>
-          <p>
-            Responsible for the IT department. Management and computer maintenance of 5 offices, Intranet, Corporate
-            Web, Closed security camera circuits.
-          </p>
+          <h3 className="font-medium">2005: MAPICASSA (Tecnocasa)</h3>
+          <p>Responsable del departament de TI. Gestió i manteniment informàtic de 5 oficines, Intranet, Web Corporativa, Circuits tancats de càmeres de seguretat.</p>
         </div>
         <div>
           <h3 className="font-medium">2002: Freelance</h3>
-          <p>Website design and development: to2djs.net - HTML, FLASH</p>
+          <p>Disseny i desenvolupament web: to2djs.net - HTML, FLASH</p>
         </div>
         <div>
-          <h3 className="font-medium">
-            {`2001: GGG Grup Gra\u{300}fics Girona (Dpto. UdG) – Programador Durante 12 meses`}
-          </h3>
+          <h3 className="font-medium">2001: GGG Grup Gràfics Girona (Dpto. UdG) – Desenvolupament mini CAVE3D</h3>
         </div>
         <div>
-          <h3 className="font-medium">{`2001: Disen\u{303}o y Desarrollo web ScratchComando.com - HTML, FLASH`}</h3>
+          <h3 className="font-medium">2001: Disseny i Desenvolupament web ScratchComando.com - HTML, FLASH</h3>
         </div>
         <div>
-          <h3 className="font-medium">
-            {`1999: Juzgado de 1a Instancia e Instruccio\u{301}n nu\u{301}mero 6 Auxiliar Interino - Durante 12 meses`}
-          </h3>
+          <h3 className="font-medium">1999: Jutjat de 1a Instància i Instrucció número 6 Girona</h3>
         </div>
         <div>
           <h3 className="font-medium">1994-1996: Rank Xerox Barcelona</h3>
-          <p>Programador durante 14 meses.</p>
+          <p>Desenvolupament de programari After Sales-Bcn.</p>
         </div>
       </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Skills</h2>
-        <p>Habilidades comerciales.</p>
-        <p>Capacidad organizativa y resolutiva.</p>
-        <p>{`Trabajo en equipo o auto\u{301}noma.`}</p>
+        <h2 className="text-2xl font-semibold mb-2">Habilitats</h2>
+        <p>Metodologia LEAN i DevOps:</p>
+        <p>Àmplia experiència en la implementació de metodologies LEAN per a l`coptimització de processos.</p>
+        <p>Coneixements sòlids en DevOps, facilitant la integració contínua i el lliurament continu de programari.</p>
+        <p>Capacitat per identificar i eliminar desaprofitaments, millorant l`eficiència operativa i reduint costos.</p>
+        <p>Capacitat Organitzativa i Resolutiva:</p>
+        <p>Habilitat destacada per planificar, coordinar i executar projectes complexos, assegurant el compliment de terminis i objectius.</p>
+        <p>Capacitat analítica per resoldre problemes tècnics i operatius de manera eficient.</p>
+        <p>Experiència en la gestió d`equips multidisciplinaris i en la presa de decisions estratègiques.</p>
+        <p>Habilitats Comercials:</p>
+        <p>Forta orientació als resultats amb un enfocament en la satisfacció del client i la creació de valor.</p>
+        <p>Habilitat per negociar i tancar acords amb proveïdors i socis comercials.</p>
+        <p>Coneixement en anàlisi de mercat i desenvolupament d`estratègies comercials efectives.</p>
+        <p>Treball en Equip i Autonomia:</p>
+        <p>Capacitat per liderar equips de treball, fomentant un ambient de col·laboració i comunicació efectiva.</p>
+        <p>Habilitat per treballar de manera autònoma, gestionant prioritats i complint objectius de forma independent.</p>
+        <p>Experiència en la creació d`un ambient de treball positiu i en el desenvolupament del talent de l`equip.</p>
+        <p>Tecnologies de SmartCity:</p>
+        <p>Coneixement en la implementació de solucions tecnològiques per a la gestió de ciutats intel·ligents, com IoT, Big Data i sistemes d`informació geogràfica (SIG).</p>
+        <p>Innovació i Desenvolupament Tecnològic:</p>
+        <p>Capacitat per impulsar la innovació i l`adopció de noves tecnologies en l`àmbit de les SmartCities.</p>
+        <p>Experiència en la gestió de projectes de R+D, des de la conceptualització fins a la implementació.</p>
       </div>
       <div className="mt-6">
-        <h2 className="text-2xl font-semibold mb-2">Licenses</h2>
+        <h2 className="text-2xl font-semibold mb-2">Llicències</h2>
         <p>Carnet B1.</p>
       </div>
     </div>
   )
 }
+
