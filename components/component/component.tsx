@@ -49,9 +49,9 @@ export function Component() {
             Descripció: Dona vida al teu propi Sommelier Virtual. Un servei on els establiments poden crear i gestionar el seu sommelier personalitzat amb facilitat i rapidesa. <Link href="https://baco.cat/" target="_blank">https://baco.cat/</Link>
           
           </p>
-         <p>Accelerador: ISID (Escola de negocis) Barcelona (Next Generator)</p>
-         <p>Microsoft Startup: Founders Hub (Patrocinador)</p>
-         <p>Desenvolupament de Relacions  Embeddings (vectors) RAG (Retrieve and Generate) per a la generació de respostes.</p>
+         <p>Acceleradora: ISDI (Escola de negocis) Barcelona (Next Generator)</p>
+         <p>Microsoft Startup Founders Hub (Patrocinador)</p>
+         <p>Desenvolupament de patrons de Relacions Embeddings (vectors) RAG (Retrieve and Generate) per a la generació de respostes.</p>
 
 
 
