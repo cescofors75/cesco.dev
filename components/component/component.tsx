@@ -43,7 +43,7 @@ export function Component() {
       </div>
       <div className="mt-6">
         <h2 className="text-xl sm:text-2xl font-semibold mb-2">Projecte Actual</h2>
-        <h3 className="font-medium">Baco AI</h3>
+        <h3 className="font-medium">Baco AI (2022-2023-2024)</h3>
         <p className="mb-2">
           Descripció: Dona vida al teu propi Sommelier Virtual. Un servei on els establiments poden crear i gestionar el seu sommelier personalitzat amb facilitat i rapidesa. 
           <Link href="baco.cat/" target="_blank" className="ml-1 hover:underline">
