@@ -43,7 +43,7 @@ export function Component() {
       </div>
       <div className="mt-6">
         <h2 className="text-xl sm:text-2xl font-semibold mb-2">Projecte Actual</h2>
-        <h3 className="font-medium">Baco AI (2022-2023-2024)</h3>
+        <h3 className="font-medium">Baco AI (2022-2023-2024) JS</h3>
         <p className="mb-2">
           Descripció: Dona vida al teu propi Sommelier Virtual. Un servei on els establiments poden crear i gestionar el seu sommelier personalitzat amb facilitat i rapidesa. 
           <Link href="baco.cat/" target="_blank" className="ml-1 hover:underline">
@@ -52,7 +52,7 @@ export function Component() {
         </p>
         <p>Acceleradora: ISDI (Escola de negocis) Barcelona (Next Generator)</p>
         <p>Microsoft Startup Founders Hub (Patrocinador)</p>
-        <p>Desenvolupament de patrons de Relacions Embeddings (vectors) RAG (Retrieve and Generate) per a la generació de respostes.</p>
+        <p>Desenvolupament de patrons dinamics de Relacions Embeddings (vectors) RAG (Retrieve and Generate)</p>
       </div>
       <div className="mt-6">
         <h2 className="text-xl sm:text-2xl font-semibold mb-2">Llengües</h2>
@@ -76,7 +76,7 @@ export function Component() {
       </div>
       <div className="mt-6">
         <h2 className="text-xl sm:text-2xl font-semibold mb-2">API S & Serveis</h2>
-        <p>OpenAI, Stability.ai, Vercel, Mistral, Cohere</p>
+        <p>OpenAI, Stability.ai, Mistral, Cohere, Anthropic, Vercel</p>
       </div>
       <div className="mt-6">
         <h2 className="text-xl sm:text-2xl font-semibold mb-2">Sistemes Operatius</h2>
@@ -87,43 +87,69 @@ export function Component() {
         <p>Google Analytics, Business Intelligence i Big Data, PowerBI, Azure</p>
       </div>
       <div className="mt-6">
-        <h2 className="text-xl sm:text-2xl font-semibold mb-2">Experiència</h2>
-        <div className="space-y-4">
-          <div>
-            <h3 className="font-medium">2021-2022: Euro4x4parts (França)</h3>
-            <p>Desenvolupament d`aplicacions informàtiques per al departament de R+D. Solució OBD2. Sistema per a cotxes antics connectats a internet.</p>
-          </div>
-          <div>
-            <h3 className="font-medium">2019-2021: Euro4x4parts (França)</h3>
-            <p>Cap del Departament d`Accessoris.</p>
-          </div>
-          <div>
-            <h3 className="font-medium">2015-2019: Euro4x4parts</h3>
-            <p>Director de la sucursal a Canàries.</p>
-          </div>
-          <div>
-            <h3 className="font-medium">2012-2014: Euro4x4parts</h3>
-            <p>Tècnic comercial.</p>
-          </div>
-        
-          <div>
-            <h3 className="font-medium">2010-2012: HOTEL SAN CARLOS - ROSES</h3>
-            <p>
-              Management and maintenance of computer software and hardware at the hotel in Roses and offices in Lloret de
-              Mar.
-            </p>
-          </div>
-          <div>
-            <h3 className="font-medium">2010-2012: Freelance</h3>
-            <p>Disseny i desenvolupament web: www.raidcostabrava.com/ - DRUPAL</p>
-            <p>Disseny i desenvolupament web: www.costabravareggaefest.com/ - DRUPAL</p>
-            <p>Disseny i desenvolupament web: http://www.radialtours.com/ - DRUPAL</p>
-            <p>Disseny i desenvolupament web: www.casarusa.cat/ - DRUPAL</p>
-            <p>Disseny i desenvolupament web: www.restaurantemasbusca.com/ - DRUPAL</p>
-          </div>
-          {/* Más experiencias... */}
-        </div>
-      </div>
+  <h2 className="text-xl sm:text-2xl font-semibold mb-2">Experiència</h2>
+  <div className="space-y-4">
+    <div>
+      <h3 className="font-medium">2021-2022: Euro4x4parts (França)</h3>
+      <p>Desenvolupament d`aplicacions informàtiques per al departament de R+D. Solució OBD2. Sistema per a cotxes antics connectats a internet.</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2019-2021: Euro4x4parts (França)</h3>
+      <p>Cap del Departament d`Accessoris.</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2015-2019: Euro4x4parts</h3>
+      <p>Director de la filial a Canàries.</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2012-2014: Euro4x4parts</h3>
+      <p>Tècnic comercial.</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2010-2012: HOTEL SAN CARLOS - ROSES</h3>
+      <p>Management and maintenance of computer software and hardware at the hotel in Roses and offices in Lloret de Mar.</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2010-2012: Freelance</h3>
+      <p>Disseny i desenvolupament web: www.raidcostabrava.com/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: www.costabravareggaefest.com/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: www.radialtours.com/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: www.casarusa.cat/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: www.restaurantemasbusca.com/ - DRUPAL</p>
+    </div>
+    <div>
+    
+      <h3 className="font-medium">2005-2009: MAPICASSA (Tecnocasa)</h3>
+      <p>Responsable del departament de TI. Gestió i manteniment informàtic de 5 oficines, Intranet, Web Corporativa, Circuits tancats de càmeres de seguretat.</p>
+      <p>Disseny i desenvolupament web: www.llantas4x4.es/ - PHP</p>
+      <p>Disseny i desenvolupament web: www.accesorios-4x4.com/ - PHP</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2002-2004: Freelance</h3>
+      
+      <p>Desenvolupament software de facturación y contabilidad- Empresa de construcción/ -PHP</p>
+      <p>Disseny i desenvolupament web: www.shop-tottraccio.com/ - PHP </p>
+      <p>Disseny i desenvolupament web: www.tottraccio.com/ - HTML - Javascript</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2001: GGG Grup Gràfics Girona (Dpto. UdG)</h3>
+      <p>Desenvolupament mini CAVE3D. C++ (UNIX - Silicon Graphics)</p>
+    </div>
+    <div>
+      <h3 className="font-medium">2001: Freelance</h3>
+      <p>Disseny i desenvolupament web: to2djs.net / Mini CMS  / - HTML, FLASH</p>
+      <p>Disseny i Desenvolupament web ScratchComando.com - HTML, FLASH</p>
+      <p>Disseny i Desenvolupament web interna per maquetacio estil Kanban - PHP</p>
+    </div>
+    <div>
+      <h3 className="font-medium">1999-2001: Jutjat de 1a Instància i Instrucció número 6 Girona</h3>
+    </div>
+    <div>
+      <h3 className="font-medium">1994-1996: Rank Xerox Barcelona</h3>
+      <p>Desenvolupament de programari After Sales-Bcn. C++ v1 - Visual C++ v2</p>
+    </div>
+  </div>
+</div>
       <div className="mt-6">
         <h2 className="text-xl sm:text-2xl font-semibold mb-2">Habilitats</h2>
         <p className="font-medium">Metodologia LEAN i DevOps:</p>
