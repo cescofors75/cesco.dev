@@ -5,6 +5,7 @@
 'use client'
 import Link from 'next/link'
 import { useRef } from 'react'
+// @ts-ignore
 import html2pdf from 'html2pdf.js'
 
 export function Component() {
