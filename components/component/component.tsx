@@ -142,25 +142,25 @@ export function Component() {
     </div>
     <div>
       <h3 className="font-medium">2010-2012: Freelance</h3>
-      <p>Disseny i desenvolupament web: www.raidcostabrava.com/ - DRUPAL</p>
-      <p>Disseny i desenvolupament web: www.costabravareggaefest.com/ - DRUPAL</p>
-      <p>Disseny i desenvolupament web: www.radialtours.com/ - DRUPAL</p>
-      <p>Disseny i desenvolupament web: www.casarusa.cat/ - DRUPAL</p>
-      <p>Disseny i desenvolupament web: www.restaurantemasbusca.com/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: raidcostabrava.com/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: costabravareggaefest.com/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: radialtours.com/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: casarusa.cat/ - DRUPAL</p>
+      <p>Disseny i desenvolupament web: restaurantemasbusca.com/ - DRUPAL</p>
     </div>
     <div>
     
       <h3 className="font-medium">2005-2009: MAPICASSA (Tecnocasa)</h3>
       <p>Responsable del departament de TI. Gestió i manteniment informàtic de 5 oficines, Intranet, Web Corporativa, Circuits tancats de càmeres de seguretat.</p>
-      <p>Disseny i desenvolupament web: www.llantas4x4.es/ - PHP</p>
-      <p>Disseny i desenvolupament web: www.accesorios-4x4.com/ - PHP</p>
+      <p>Disseny i desenvolupament web: llantas4x4.es/ - PHP</p>
+      <p>Disseny i desenvolupament web: accesorios-4x4.com/ - PHP</p>
     </div>
     <div>
       <h3 className="font-medium">2002-2004: Freelance</h3>
       
       <p>Desenvolupament software de facturación y contabilidad- Empresa de construcción/ -PHP</p>
-      <p>Disseny i desenvolupament web: www.shop-tottraccio.com/ - PHP </p>
-      <p>Disseny i desenvolupament web: www.tottraccio.com/ - HTML - Javascript</p>
+      <p>Disseny i desenvolupament web: shop-tottraccio.com/ - PHP </p>
+      <p>Disseny i desenvolupament web: tottraccio.com/ - HTML - Javascript</p>
     </div>
     <div>
       <h3 className="font-medium">2001: GGG Grup Gràfics Girona (Dpto. UdG)</h3>
