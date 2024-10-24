@@ -5,43 +5,28 @@
 'use client'
 import Link from 'next/link'
 import { useRef } from 'react'
-import jsPDF from 'jspdf'
-import html2canvas from 'html2canvas'
+import html2pdf from 'html2pdf.js'
 
 export function Component() {
   const contentRef = useRef<HTMLDivElement>(null);
 
-  const handleDownloadPdf = async () => {
+ 
+  const handleDownloadPdf = () => {
     const element = contentRef.current;
     if (!element) {
       return;
     }
 
-    const canvas = await html2canvas(element, { scale: 2 });
-    const imageData = canvas.toDataURL('image/png');
+    const opt = {
+      margin:       [10, 10, 10, 10], // Márgenes: superior, izquierdo, inferior, derecho
+      filename:     'portafolioCesco.pdf',
+      image:        { type: 'jpeg', quality: 0.8 },
+      html2canvas:  { scale: 1 },
+      jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+    };
 
-    const pdf = new jsPDF('p', 'mm', 'a4');
-    const pdfWidth = pdf.internal.pageSize.getWidth();
-    const pdfHeight = pdf.internal.pageSize.getHeight();
-
-    const imgProps = pdf.getImageProperties(imageData);
-    const imgWidth = pdfWidth;
-    const imgHeight = (imgProps.height * imgWidth) / imgProps.width;
-
-    let heightLeft = imgHeight;
-    let position = 0;
-
-    pdf.addImage(imageData, 'PNG', 0, position, imgWidth, imgHeight);
-    heightLeft -= pdfHeight;
-
-    while (heightLeft > 0) {
-      position = heightLeft - imgHeight;
-      pdf.addPage();
-      pdf.addImage(imageData, 'PNG', 0, position, imgWidth, imgHeight);
-      heightLeft -= pdfHeight;
-    }
-
-    pdf.save('portafolioCesco.pdf');
+    // Mostrar indicador de carga si es necesario
+    html2pdf().set(opt).from(element).save();
   };
   return (
     <div
