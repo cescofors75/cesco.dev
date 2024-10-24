@@ -145,7 +145,7 @@ export function Component() {
       <h3 className="font-medium">1999-2001: Jutjat de 1a Instància i Instrucció número 6 Girona</h3>
     </div>
     <div>
-      <h3 className="font-medium">1994-1996: Rank Xerox Barcelona</h3>
+      <h3 className="font-medium">1994-1996: Xerox Barcelona</h3>
       <p>Desenvolupament de programari After Sales-Bcn. C++ v1 - Visual C++ v2</p>
     </div>
   </div>
