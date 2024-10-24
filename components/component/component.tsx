@@ -6,27 +6,29 @@
 import Link from 'next/link'
 import { useRef } from 'react'
 
-import html2pdf from 'html2pdf.js'
+//import html2pdf from 'html2pdf.js'
 
 export function Component() {
   const contentRef = useRef<HTMLDivElement>(null);
 
  
-  const handleDownloadPdf = () => {
+  const handleDownloadPdf = async () => {
     const element = contentRef.current;
     if (!element) {
       return;
     }
 
+    // Importar html2pdf.js dinámicamente
+    const html2pdf = (await import('html2pdf.js')).default;
+
     const opt = {
-      margin:       [10, 10, 10, 10], // Márgenes: superior, izquierdo, inferior, derecho
-      filename:     'portafolioCesco.pdf',
-      image:        { type: 'jpeg', quality: 0.8 },
-      html2canvas:  { scale: 1 },
-      jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      margin: [10, 10, 10, 10],
+      filename: 'portafolio.pdf',
+      image: { type: 'jpeg', quality: 0.8 },
+      html2canvas: { scale: 1 },
+      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
     };
 
-    // Mostrar indicador de carga si es necesario
     html2pdf().set(opt).from(element).save();
   };
   return (
