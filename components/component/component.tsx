@@ -18,9 +18,9 @@ export function Component() {
           <p>Lloret de Mar - Girona</p>
           <p>DNI: 44004300X</p>
           <p>Mòbil: +34 618900003</p>
-          <p>Correu Electrònic: cescofors75@gmail.com</p>
+          <p>Correu Electrònic:</p> <p>cescofors75@gmail.com</p>
           <Link href="www.linkedin.com/in/cescofors/" target="_blank" className="block hover:underline">
-            LinkedIn: www.linkedin.com/in/cescofors/
+            LinkedIn: linkedin.com/in/cescofors/
           </Link>
           <Link href="github.com/cescofors75" target="_blank" className="block hover:underline">
             Github: github.com/cescofors75
