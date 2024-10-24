@@ -25,8 +25,8 @@ export default function Portfolio() {
       const html2pdf = (await import('html2pdf.js')).default;
 
       const opt = {
-        margin: [6, 4, 6, 4],
-        filename: 'portafolioCesco.pdf',
+        margin: [4, 4, 4, 4],
+        filename: 'portafolio.pdf',
         image: { type: 'jpeg', quality: 0.8 },
         html2canvas: { scale: 1 },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
@@ -133,12 +133,12 @@ export default function Portfolio() {
             <div>
               <h3 className="font-medium">2021-2022: Euro4x4parts (França)</h3>
               <p>
-                Desenvolupament d'aplicacions informàtiques per al departament de R+D. Solució OBD2. Sistema per a cotxes antics connectats a internet.
+                Desenvolupament d&apos;aplicacions informàtiques per al departament de R+D. Solució OBD2. Sistema per a cotxes antics connectats a internet.
               </p>
             </div>
             <div>
               <h3 className="font-medium">2019-2021: Euro4x4parts (França)</h3>
-              <p>Cap del Departament d'Accessoris.</p>
+              <p>Cap del Departament d&apos;Accessoris.</p>
             </div>
             <div>
               <h3 className="font-medium">2015-2019: Euro4x4parts</h3>
@@ -151,7 +151,7 @@ export default function Portfolio() {
             <div>
               <h3 className="font-medium">2010-2012: Hotel San Carlos - Roses</h3>
               <p>
-                Gestió i manteniment de programari i maquinari informàtic a l'hotel de Roses i oficines a Lloret de Mar.
+                Gestió i manteniment de programari i maquinari informàtic a l&apos;hotel de Roses i oficines a Lloret de Mar.
               </p>
             </div>
             <div>
@@ -172,7 +172,9 @@ export default function Portfolio() {
             </div>
             <div>
               <h3 className="font-medium">2002-2004: Freelance</h3>
-              <p>Desenvolupament de programari de facturació i comptabilitat per a una empresa de construcció - PHP</p>
+              <p>
+                Desenvolupament de programari de facturació i comptabilitat per a una empresa de construcció - PHP
+              </p>
               <p>Disseny i desenvolupament web: shop-tottraccio.com - PHP</p>
               <p>Disseny i desenvolupament web: tottraccio.com - HTML, JavaScript</p>
             </div>
@@ -201,13 +203,13 @@ export default function Portfolio() {
           <p className="font-medium">Metodologia LEAN i DevOps:</p>
           <ul className="list-disc pl-5 mb-2">
             <li>
-              Àmplia experiència en la implementació de metodologies LEAN per a l'optimització de processos.
+              Àmplia experiència en la implementació de metodologies LEAN per a l&apos;optimització de processos.
             </li>
             <li>
               Coneixements sòlids en DevOps, facilitant la integració contínua i el lliurament continu de programari.
             </li>
             <li>
-              Capacitat per identificar i eliminar desaprofitaments, millorant l'eficiència operativa i reduint costos.
+              Capacitat per identificar i eliminar desaprofitaments, millorant l&apos;eficiència operativa i reduint costos.
             </li>
           </ul>
         </div>
