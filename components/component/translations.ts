@@ -70,12 +70,12 @@ export const translations = {
             period: '2021-2022',
             company: 'Euro4x4parts (França)',
             role:
-              'Desenvolupament d&apos;aplicacions informàtiques per al departament de R+D. Solució OBD2. Sistema per a cotxes antics connectats a internet.',
+              'Desenvolupament d aplicacions informàtiques per al departament de R+D. Solució OBD2. Sistema per a cotxes antics connectats a internet.',
           },
           {
             period: '2019-2021',
             company: 'Euro4x4parts (França)',
-            role: 'Cap del Departament d&apos;Accessoris.',
+            role: 'Cap del Departament d Accessoris.',
           },
           {
             period: '2015-2019',
@@ -132,9 +132,9 @@ export const translations = {
         title: 'Habilitats',
         leanDevOps: 'Metodologia LEAN i DevOps:',
         points: [
-          'Àmplia experiència en la implementació de metodologies LEAN per a l&apos;optimització de processos.',
-          'Coneixements sòlids en DevOps, facilitant la integració contínua i el lliurament continu de programari.',
-          'Capacitat per identificar i eliminar desaprofitaments, millorant l&apos;eficiència operativa i reduint costos.',
+          'Àmplia experiència en la implementació de metodologies LEAN per a l optimització de processos.',
+          'Coneixements en DevOps, facilitant la integració contínua i el lliurament continu de programari.',
+          'Capacitat per identificar i eliminar desaprofitaments, millorant l eficiència operativa i reduint costos.',
         ],
       },
       licenses: {
@@ -154,7 +154,7 @@ export const translations = {
         birthPlace: 'Lugar de Nacimiento',
         currentAddress: 'Dirección Actual',
         city: 'Lloret de Mar - Girona',
-        dni:'44004300X',
+        dni:'Dni',
         mobile: 'Móvil',
         email: 'Correo Electrónico',
         linkedin: 'LinkedIn',
@@ -280,7 +280,7 @@ export const translations = {
         leanDevOps: 'Metodología LEAN y DevOps:',
         points: [
           'Amplia experiencia en la implementación de metodologías LEAN para la optimización de procesos.',
-          'Conocimientos sólidos en DevOps, facilitando la integración continua y la entrega continua de software.',
+          'Conocimientos en DevOps, facilitando la integración continua y la entrega continua de software.',
           'Capacidad para identificar y eliminar desperdicios, mejorando la eficiencia operativa y reduciendo costos.',
         ],
       },

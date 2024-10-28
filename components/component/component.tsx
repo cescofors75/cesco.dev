@@ -46,7 +46,7 @@ export default function Portfolio() {
 
       const opt = {
         margin: [4, 4, 4, 4],
-        filename: 'portafolio.pdf',
+        filename: 'portafolioCesco.pdf',
         image: { type: 'jpeg', quality: 0.8 },
         html2canvas: { scale: 1 },
         jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' },
@@ -103,7 +103,7 @@ export default function Portfolio() {
             <div>
               <h2 className="text-xl sm:text-2xl font-semibold mb-2">{t.personalInfo.title}</h2>
               <p>
-                {t.personalInfo.name}: Francesc
+                {t.personalInfo.name}: Francesc &apos;Cesco&apos;
               </p>
               <p>
                 {t.personalInfo.surname}: Fors Ferrer
